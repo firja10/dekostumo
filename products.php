@@ -263,7 +263,7 @@
             // {
       
            $product_image = "./assets/img/baju/". $baris['product_image'];
-           $url_id = "http://localhost/alif/product_specific.php?id=" . $baris['id'];
+           $url_id = "http://dekostumoid.com/product_specific.php?id=" . $baris['id'];
 
           
           ?>
