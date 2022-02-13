@@ -104,10 +104,17 @@
 
   <?php
   
-  $namaserver = 'localhost';
-  $username = 'root';
-  $password = '';
-  $DB = 'dekostumoid';
+  // $namaserver = 'localhost';
+  // $username = 'root';
+  // $password = '';
+  // $DB = 'dekostumoid';
+
+
+  $namaserver = 'ariados';
+  $username = 'dekostum_id_user';
+  $password = 'Suksesduniaakhirat12';
+  $DB = 'dekostum_id';
+
 
   $koneksi = new mysqli($namaserver, $username, $password, $DB);
 
@@ -118,6 +125,10 @@
 
   $select_product = "SELECT * FROM products";
   $hasil_select = $koneksi->query($select_product);
+
+   // $url = "http://localhost/alif/";
+  $url = "http://dekostumoid.com/";
+
 
  
   
@@ -186,7 +197,7 @@
             // {
       
            $product_image = "./assets/img/baju/". $baris['product_image'];
-           $url_id = "http://localhost/alif/product_specific.php?id=" . $baris['id'];
+           $url_id = $url . "product_specific.php?id=" . $baris['id'];
 
           
           ?>
