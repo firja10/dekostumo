@@ -397,15 +397,15 @@
 
       <div class="container" style = "text-align:center;">
 
-        <div class="row" style = "text-align:center;">
+      <div class="row" style = "text-align:center;">
           <div class="col-lg-3 col-6 footer-links">
-           <a href="" class = "align-items-center">
+           <a href="https://www.dekostumoid.com/terms_condition.html" class = "align-items-center">
             <h4>Terms & Conditions</h4>
           </a>
           </div>
 
           <div class="col-lg-3 col-6 footer-links">
-            <a href="" class = "align-items-center">
+            <a href="https://www.dekostumoid.com/privacy_policy.html" class = "align-items-center">
               <h4>Privacy Policy</h4>
             </a>
           </div>
