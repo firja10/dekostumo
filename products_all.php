@@ -104,16 +104,10 @@
 
   <?php
   
-  // $namaserver = 'localhost';
-  // $username = 'root';
-  // $password = '';
-  // $DB = 'dekostumoid';
-
-  $namaserver = 'ariados';
-  $username = 'dekostum_id_user';
-  $password = 'Suksesduniaakhirat12';
-  $DB = 'dekostum_id';
-
+  $namaserver = 'localhost';
+  $username = 'root';
+  $password = '';
+  $DB = 'dekostumoid';
 
   $koneksi = new mysqli($namaserver, $username, $password, $DB);
 
@@ -124,10 +118,6 @@
 
   $select_product = "SELECT * FROM products";
   $hasil_select = $koneksi->query($select_product);
-
-  // $url = "http://localhost/alif/";
-
-  $url = "http://dekostumoid.com/";
 
  
   
@@ -145,7 +135,7 @@
 
     <div class="container" style = "margin-top:3%;">
       <center>
-        <h1>Our Products !</h1>
+        <h1>All of Our Products !</h1>
       </center>
 
       <?php 
@@ -167,85 +157,8 @@
   <br>
   
       <div class="row" style = "margin-bottom:20%;" >
-        <div class="col-lg-2 d-flex flex-column justify-content-center">
-         
-          <div data-aos="fade-up" data-aos-delay="600">
-            <div class="text-center text-lg-start">
-
-              <ul style = "list-style: none;">
-                <li class = "judul-list">Partners
-                  <ul style = "text-align:left">
-                    <li> <a href="">ABC</a> </li>
-                    <li><a href="">DEF</a></li>
-                    <li><a href="">GHI</a></li>
-                  </ul>
-                </li>
-                
-                <li></li>
-                <li></li>
-              </ul>
-
-
-
-              <ul style = "list-style: none;">
-                <li class = "judul-list">Tops
-                  <ul style = "text-align:left">
-                    <li> <a href="">ABC</a> </li>
-                    <li><a href="">DEF</a></li>
-                    <li><a href="">GHI</a></li>
-                  </ul>
-                </li>
-                
-                <li></li>
-                <li></li>
-              </ul>
-
-
-
-
-
-
-
-              <ul style = "list-style: none;">
-                <li class = "judul-list">Bottom
-                  <ul style = "text-align:left">
-                    <li> <a href="">ABC</a> </li>
-                    <li><a href="">DEF</a></li>
-                    <li><a href="">GHI</a></li>
-                  </ul>
-                </li>
-                
-                <li></li>
-                <li></li>
-              </ul>
-
-
-
-
-
-
-              <ul style = "list-style: none;">
-                <li class = "judul-list">Outwear
-                  <ul style = "text-align:left">
-                    <li> <a href="">ABC</a> </li>
-                    <li><a href="">DEF</a></li>
-                    <li><a href="">GHI</a></li>
-                  </ul>
-                </li>
-                
-                <li></li>
-                <li></li>
-              </ul>
-
-
-
-
-
-
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-10" data-aos="zoom-out" data-aos-delay="200">
+   
+        <div class="col-lg-12" data-aos="zoom-out" data-aos-delay="200">
           <!-- <img src="assets/img/heros.png" class="img-fluid" alt="" style = "margin-top:90px;"> -->
          
 
@@ -273,13 +186,13 @@
             // {
       
            $product_image = "./assets/img/baju/". $baris['product_image'];
-           $url_id = $url . "product_specific.php?id=" . $baris['id'];
+           $url_id = "http://localhost/alif/product_specific.php?id=" . $baris['id'];
 
           
           ?>
          
          <center>
-          <div class="col-5 produk" data-aos="zoom-out" data-aos-delay="200" style = "margin-left:10px; margin-right:10px;">
+          <div class="col-4 produk" data-aos="zoom-out" data-aos-delay="200" style = "margin-left:10px; margin-right:10px;">
             <!-- <img src="assets/img/heros.png" class="img-fluid" alt="" style = "margin-top:90px;"> -->
           
 
@@ -364,9 +277,9 @@
         </div>
         
 
-        <center>
-          <a href="<?php echo $url ?>products_all.php" class="btn btn-dark" style = "margin-top:150px;">View More</a>
-        </center>
+        <!-- <center>
+          <a href="#" class="btn btn-dark" style = "margin-top:150px;">View More</a>
+        </center> -->
 
         
 
