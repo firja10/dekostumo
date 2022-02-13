@@ -535,7 +535,7 @@ $sizes_3 = $ukurans[2];
             </a>
           </div>
 
-          <div class="col-lg-3 col-6 footer-links">
+          <!-- <div class="col-lg-3 col-6 footer-links">
             <a href="" class = "align-items-center">
               <h4>About Us</h4>
             </a>
@@ -545,7 +545,7 @@ $sizes_3 = $ukurans[2];
             <a href="" class = "align-items-center">
               <h4>Frequently Asked Question</h4>
             </a>
-          </div>
+          </div> -->
 
         </div>
           </div>
