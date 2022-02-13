@@ -66,6 +66,33 @@
             color:#444;
     }
 
+
+
+    .translated-ltr{margin-top:-40px;}
+.translated-ltr{margin-top:-40px;}
+.goog-te-banner-frame {display: none;margin-top:-20px;}
+
+.goog-logo-link {
+   display:none !important;
+} 
+
+
+
+.goog-te-gadget{
+   color: transparent !important;
+  
+}
+
+.goog-te-combo{
+border:1px solid #ccc;
+border-radius:2px;
+box-sizing: border-box;
+width:100%;
+resize:vertical;
+padding:7px;
+
+}
+
   </style>
 
   <!-- =======================================================
@@ -92,7 +119,11 @@
           <li><a class="nav-link scrollto active" href="#hero">Our Products</a></li>
           <li><a class="nav-link scrollto" href="#about">Help</a></li>
 
-            <li><a href="blog.html">ID</a></li>|<li ><a style = "padding:0" href="blog.html">ENG</a></li>
+            <!-- <li><a href="blog.html">ID</a></li>|<li ><a style = "padding:0" href="blog.html">ENG</a></li> -->
+
+            <li> <a class="nav-link scrollto" ><div id="google_translate_element" style = "margin-top:15px;"></div></a> </li>
+
+
    
           <!-- <li><a class="getstarted scrollto" href="#about">Get Started</a></li> -->
         </ul>
@@ -450,6 +481,29 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
+
+
+  <script type="text/javascript">
+    // function googleTranslateElementInit() {
+    //   new google.translate.TranslateElement({pageLanguage: 'id'}, 'google_translate_element');
+    // }
+    
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en' , includedLanguages : 'en,id'}, 'google_translate_element');
+      }
+
+      $(document).ready(function() {
+        
+        $('.goog-te-combo').addClass('form-control');
+
+      })
+
+
+    </script>
+
+
+
+
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
