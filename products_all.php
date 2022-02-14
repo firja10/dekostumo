@@ -122,9 +122,9 @@ padding:7px;
           <li><a class="nav-link scrollto" href="#about">Help</a></li>
 
             <!-- <li><a href="blog.html">ID</a></li>|<li ><a style = "padding:0" href="blog.html">ENG</a></li> -->
-
+<!-- 
             <li> <a class="nav-link scrollto" ><div id="google_translate_element" style = "margin-top:15px;"></div></a> </li>
-
+ -->
 
    
           <!-- <li><a class="getstarted scrollto" href="#about">Get Started</a></li> -->
